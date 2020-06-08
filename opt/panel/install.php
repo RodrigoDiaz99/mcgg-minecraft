@@ -101,7 +101,7 @@ if (!empty($_POST['user'])) {
 					<span class="text-info">0 = No Server</span>
 				</div>
 			</div>
-			<div class="control-group">
+			<div class="form-group">
 				<label class="control-label" for="version">Server Version</label>
 					
 				<div class="controls">
