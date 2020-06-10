@@ -101,10 +101,10 @@ if (!empty($_POST['user'])) {
 					<span class="text-info">0 = No Server</span>
 				</div>
 			</div>
-			<div class="control-group">
+			<div class="form-group">
 				<label class="control-label" for="version">Server Version</label>
 					
-				<div class="controls">
+				<div class="form-group">
 					<select name="version" id="version" class="span2">
 						<option value="1.15.2">Spigot 1.15.2</option>
 						<option value="1.14.4">Spigot 1.14.4</option>
@@ -115,7 +115,7 @@ if (!empty($_POST['user'])) {
 						<option value="1.8.8">Spigot 1.8.8</option>
 						<option value="1.7.10">Spigot 1.7.10</option>
 						<option value="BC">Bungeecord</option>
-					<option value="NONE">None</option>
+						<option value="NONE">None</option>
 					</select>
 				</div>
 			</div>
